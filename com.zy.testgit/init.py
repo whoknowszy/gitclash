@@ -6,8 +6,8 @@ class person:
 		self.scope = ''
 
 	def __str__(self):
-		num = self.age + self.scope
-		return self.name + str(num)
+		# num = self.age + self.scope
+		return self.name + str(self.age) + str(self.scope)
 
 
 def test_git():
